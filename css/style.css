@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px; /* = 1rem */
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1125px;
+    width: 100%;
+    margin: auto;
+}
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header {
+    margin-top: 50px;
+}
+.link {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.link:hover {
+    color: #34547A;
+}
+.logo {
+    font-family: 'Revalia', cursive;
+    font-size: 48px;
+    line-height: 60px;
+    color: #34547A;
+}
+.navigation {
+    max-width: 612px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav__item {
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+.section__hero {
+    background: #EEEFF1;
+    padding-top: 250px;
+    padding-bottom: 153px;
+    margin-top: -110px;
+}
+.hero__img {
+    margin-left: 85px;
+}
+.hero__info {
+    max-width: 541px;
+    width: 100%;
+}
+.hero__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 79px;
+    margin-bottom: 60px;    
+}
+.desc {
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 60px;
+}
+.button {
+    padding: 25px 41px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.button--primary {
+    color: #FFFFFF;
+    background: #34547A;
+}
+.section__title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+}   
+.block__info {
+    max-width: 540px;
+    width: 100%;
+}
+.section__desc {
+    text-align: center;
+}
